@@ -48,7 +48,7 @@ html {
   --heading-color: #fefeff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #9b59b6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #000000; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -64,7 +64,7 @@ html {
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #4b4a4a;
+  --background-color: #0a0a0acb;
   --surface-color: #ffffff;
 }
 
@@ -719,6 +719,7 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1159,7 +1160,7 @@ section,
 }
 
 .contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
+  color: #2d2d2d;
   background: var(--accent-color);
   border: 0;
   padding: 10px 30px;
