@@ -1,15 +1,3 @@
-/**
-* Template Name: MyResume
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 body::-webkit-scrollbar {
   width: 15px !important;
   }
@@ -719,7 +707,7 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1482,3 +1470,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/**
+* Template Name: MyResume
+* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+* Updated: Jun 29 2024 with Bootstrap v5.3.3
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
